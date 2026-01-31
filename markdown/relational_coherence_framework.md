@@ -1,7 +1,7 @@
 # Relational Coherence Framework (RCF)
 ## A Four-Channel Compatibility Specification (CESV)
 
-**Version:** 1.3.0 • **Status:** Stable • **Type:** Diagnostic & Triage Tool
+**Version:** 1.3.1 • **Status:** Stable • **Type:** Diagnostic & Triage Tool
 
 ---
 
@@ -103,7 +103,7 @@ Channels are separable but coupled. Use this table for differential diagnosis: "
 | **C+** | — | Reduces conflict load (if E adequate) | Indirect (shared projects can spark interest) | Enables clearer negotiation |
 | **E+** | Dialogue stays safe; reduces "logic warfare" | — | Relaxation enables desire | Hard conversations stay possible |
 | **S+** | Smooths friction via bonding | Reinforces safety (non-verbal repair) | — | Embodied "we" strengthens commitment |
-| **V+** | Shared purpose focuses C | Adversity feels shared, not adversarial | Meaning sustains desire through novelty loss | — |
+| **V+** | Shared purpose focuses C | Adversity feels shared, not adversarial | Shared direction sustains desire through novelty loss | — |
 
 **When Weak (−):**
 
@@ -130,6 +130,7 @@ Channels are separable but coupled. Use this table for differential diagnosis: "
 ### 3.2 Scoring Mechanics
 1. **Channel Score (per person):** min(my_amplitude, my_alignment)
 2. **Relationship Channel Score:** min(Person A's score, Person B's score)
+   *(Notation: `C_rel`, `E_rel`, `S_rel`, `V_rel` denote the relationship-level channel scores for Cognitive, Emotional, Somatic, and Vector.)*
 3. **Delta:** |Person A's score − Person B's score|
 4. **RC_min (Conservative Coherence):** min(C_rel, E_rel, S_rel, V_rel)
 
@@ -277,7 +278,7 @@ Each pattern includes: signature, failure mode, next action, and diagnostic ques
 
 ### Pattern I — Entropy Drift
 **Signature:** Was high across channels, now declining (typically E and S first)
-**Failure Mode:** **Default drift** not countered with active maintenance.
+**Failure Mode:** Default drift not countered with active maintenance.
 **Next Action:** Identify when drift started; restore legibility; measure E repair.
 **Diagnostic:** "When did interactions become mostly obligation/admin?"
 
