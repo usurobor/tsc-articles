@@ -2,8 +2,6 @@
 
 *Can AI help test what movement teachers, bodyworkers, and clinicians think they see?*
 
----
-
 Two people walk down the same street. Same speed. Same stride length. Same cadence. On paper, their gait looks almost identical.
 
 But anyone watching closely can see they are not doing the same thing.
@@ -20,7 +18,7 @@ This is the gap I want to explore: walking is not just a pattern of leg motion. 
 
 A body is layered, tensioned, and sensing: bones give shape, muscles regulate force, and fascia and connective tissues help distribute load and report state.
 
-That does not mean we should make mystical claims about fascia or pretend we can read tissue tension from a video. A [2022 scoping review](https://doi.org/10.1016/j.jbmt.2022.05.006) of human myofascial force transfer found evidence worth taking seriously, but also enough limitation and variability to demand caution. Fascia belongs in the model. It does not excuse us from measurement.
+That does not mean we should make mystical claims about fascia or pretend we can read tissue tension from a video. A [2022 scoping review of human myofascial force transfer](https://pubmed.ncbi.nlm.nih.gov/36180147/) found evidence worth taking seriously, but also enough limitation and variability to demand caution. Fascia belongs in the model. It does not excuse us from measurement.
 
 Walking is rhythmic, but it is not pure bouncing. Running behaves more like a spring. Walking is stranger. It mixes pendular motion, elastic recoil, active control, damping, balance, and collision management. The body does not simply push off the ground. It negotiates with it.
 
@@ -43,7 +41,7 @@ The spine is often treated as the thing carried by the legs. That is too simple.
 
 The spine is not a rigid mast, and it is not a magic engine. It is better understood as a living centerline. It organizes orientation, modulates rotation between pelvis and ribs, distributes load past the hip, and carries the timing wave of the step.
 
-This is why Serge Gracovetsky's [spinal-engine work](https://doi.org/10.1016/0141-5425(85)90021-4) remains such a useful provocation. You do not have to accept every strong version of the theory to keep its most important correction: in walking, the trunk is not cargo. It is part of the locomotor solution.
+This is why Serge Gracovetsky's [spinal-engine work](https://pubmed.ncbi.nlm.nih.gov/4033096/) remains such a useful provocation. You do not have to accept every strong version of the theory to keep its most important correction: in walking, the trunk is not cargo. It is part of the locomotor solution.
 
 Several somatic traditions noticed versions of this long before biomechanics had the tools to test it: the body walks as a whole, organizes itself in gravity, uses connective tissues as a system, and can reorganize learned movement.
 
@@ -85,6 +83,12 @@ That last question may be the most important. The goal is not to find your gait 
 
 ## Seven Walks You've Probably Seen
 
+Why seven? Not because there are only seven ways to walk. And not because these are proven types.
+
+These are seven candidate patterns that recur at the intersection of biomechanics, somatic observation, and clinical gait thinking. Two reflect the canonical mechanics of walking: pendular travel and elastic return. Two describe common ways the system loses options: bracing too much or stabilizing too late. Two describe how motion couples or fails to couple across the body: spiral integration or segmented blocks. The seventh, asymmetry, is different. It can overlay any of the others when one side protects, avoids, shortens, delays, or overworks.
+
+A more rigorous typology would start from mechanical primitives — force reception, energy storage, stiffness, timing, segmental coupling, and symmetry — and let the categories fall out. This list starts from observation and asks measurement to sort it.
+
 The following are not final types. They are candidate movement attractors: useful names for patterns that must earn their validity through measurement.
 
 ### 1. The Pendular Carrier
@@ -113,7 +117,9 @@ The Segmented Block Mover arrives in parts. Feet, legs, pelvis, trunk, head, and
 
 ### 7. The Asymmetric Protector
 
-The Asymmetric Protector walks around a difference. One side avoids load, shortens stance, delays push-off, rotates less, braces more, or asks the other side to do extra work. The cause might be pain, injury history, habit, neurological constraint, structural difference, fatigue, or something as simple as what the person is carrying.
+The Asymmetric Protector walks around a difference. Strictly speaking, this may be less a family than a modifier. It can appear on top of a pendular, elastic, braced, collapsed, spiral, or segmented strategy.
+
+One side avoids load, shortens stance, delays push-off, rotates less, braces more, or asks the other side to do extra work. The cause might be pain, injury history, habit, neurological constraint, structural difference, fatigue, or something as simple as what the person is carrying.
 
 These seven patterns are easy to recognize once named. That is exactly why they are dangerous if treated as truth too soon.
 
@@ -139,11 +145,13 @@ The interesting question is harder: Can AI find these strategies as stable patte
 
 That is where the frame becomes scientific.
 
-The tools are getting close. [OpenCap](https://doi.org/10.1371/journal.pcbi.1011462), for example, combines computer vision and musculoskeletal simulation to estimate human movement dynamics from smartphone videos, moving some forms of movement analysis outside traditional marker-based gait labs. Add pose estimation, pressure insoles, inertial sensors, and repeated walking conditions, and the question becomes testable. Not proven. Testable.
+The tools are getting close. [OpenCap](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011462), for example, combines computer vision and musculoskeletal simulation to estimate human movement dynamics from smartphone videos, moving some forms of movement analysis outside traditional marker-based gait labs. Add pose estimation, pressure insoles, inertial sensors, and repeated walking conditions, and the question becomes testable. Not proven. Testable.
 
 The AI should not be trained first to recognize these seven labels. That would only teach the machine the theory. The better test is harsher: let the model find its own clusters without being told that Pendular Carriers, Elastic Rebounders, Braced Axial Walkers, or Spiral Drivers exist. Then ask what it found.
 
 If the clusters resemble the proposed families, remain stable across recording days, and correspond to independent force or pressure measurements, the typology has earned a first pass. If the clusters collapse into age, sex, height, shoe type, camera angle, clothing, or pathology labels, then the typology is wrong or too crude.
+
+The number seven is not sacred. If the model finds three stable families, or twelve, or finds that "asymmetry" is not a family at all but a modifier that overlays the others, the frame survives. The point was never the number. The point was the possibility of recurring whole-body strategies that can be tested.
 
 And if an intervention changes how someone moves, the model should show that change in a meaningful direction. A braced pattern should not merely receive a prettier label. It should show more spinal-pelvic differentiation, better timing, different pressure, or some measurable change beyond appearance.
 
