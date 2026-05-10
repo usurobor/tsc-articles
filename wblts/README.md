@@ -2,4 +2,4 @@
 
 A viscoelastic framework for gait typology and AI-based validation.
 
-- `ARTICLE.md` — full article (v1.0.5-final)
+- `ARTICLE.md` — Medium-optimized essay
