@@ -18,9 +18,9 @@ This is the gap I want to explore: walking is not just a pattern of leg motion. 
 
 ## Each Step Asks Six Questions
 
-A body is not a machine made of hinges. It is also not a loose bag of parts. It is a layered, hydrated, tensioned, sensing structure. Bones give stiffness and shape. Joints give options. Muscles generate force and regulate tone. Fascia, tendons, ligaments, capsules, and membranes transmit tension, damp impact, report sensory state, and connect local movement to global consequences.
+A body is layered, tensioned, and sensing: bones give shape, muscles regulate force, and fascia and connective tissues help distribute load and report state.
 
-None of this means we should make mystical claims about fascia or pretend we can read tissue tension from a video. A 2022 scoping review found that human evidence for in-vivo myofascial force transfer exists but remains limited and methodologically varied. That is exactly the right level of caution: fascia belongs in the model, but it does not excuse us from measurement.
+That does not mean we should make mystical claims about fascia or pretend we can read tissue tension from a video. A [2022 scoping review](https://doi.org/10.1016/j.jbmt.2022.05.006) of human myofascial force transfer found evidence worth taking seriously, but also enough limitation and variability to demand caution. Fascia belongs in the model. It does not excuse us from measurement.
 
 Walking is rhythmic, but it is not pure bouncing. Running behaves more like a spring. Walking is stranger. It mixes pendular motion, elastic recoil, active control, damping, balance, and collision management. The body does not simply push off the ground. It negotiates with it.
 
@@ -41,11 +41,11 @@ The person's repeated answer is their gait strategy.
 
 The spine is often treated as the thing carried by the legs. That is too simple.
 
-The spine is not a rigid mast, and it is not a magic engine. It is better understood as a living centerline. It organizes orientation: head, eyes, ribs, pelvis, and feet all relate to it. It modulates rotation: walking requires a conversation between pelvis and rib cage. It distributes load: force from the ground does not stop at the hip. It carries timing: a step is not just footfall, but a wave passing through the body.
+The spine is not a rigid mast, and it is not a magic engine. It is better understood as a living centerline. It organizes orientation, modulates rotation between pelvis and ribs, distributes load past the hip, and carries the timing wave of the step.
 
-This is why Serge Gracovetsky's spinal-engine work remains such a useful provocation. In 1985, he challenged the idea that the trunk is a passive passenger and argued for the spine as an active participant in human locomotion. You do not have to accept every strong version of that theory to keep its most important correction: in walking, the trunk is part of the solution.
+This is why Serge Gracovetsky's [spinal-engine work](https://doi.org/10.1016/0141-5425(85)90021-4) remains such a useful provocation. You do not have to accept every strong version of the theory to keep its most important correction: in walking, the trunk is not cargo. It is part of the locomotor solution.
 
-This idea also sits near several somatic traditions. Ida Rolf placed body organization in relation to gravity. Thomas Myers gave practitioners a practical language of myofascial continuity. Moshe Feldenkrais treated movement as learned, variable, and reorganizable. The point is not to collapse these traditions into one theory. The point is to take seriously what they all noticed: the body walks as a whole.
+Several somatic traditions noticed versions of this long before biomechanics had the tools to test it: the body walks as a whole, organizes itself in gravity, uses connective tissues as a system, and can reorganize learned movement.
 
 ---
 
@@ -64,6 +64,22 @@ That single sentence protects the whole idea from becoming harmful. Because once
 That is the wrong use of the frame.
 
 The better language is: under these conditions, your body is using this strategy. Under different conditions, with different information, it may choose another.
+
+---
+
+## Why Name These Patterns at All?
+
+The point is not to classify people by how they walk. The point is to notice how a body currently solves a problem.
+
+Walking is one of the most ordinary things humans do, but it is also one of the most complex. Every step requires the body to manage gravity, timing, balance, impact, direction, uncertainty, fatigue, and protection. The nervous system has to decide where to yield, where to stiffen, how much force to use, how much rotation to allow, and how quickly to recover.
+
+That makes gait a useful window into movement organization. Not personality. Not destiny. Organization.
+
+A name lets us notice a pattern, compare it across people, measure it, challenge it, and change it. Without names, everything stays vague: "tight," "off," "smooth," "awkward," "athletic." With names, we can ask better questions.
+
+Does this strategy persist across days? Does it change when the person walks faster? Does it change barefoot? Does it change under fatigue? Does it change after pain decreases? Does it show up in pressure data? Does the person have more strategies available than the one we usually see?
+
+That last question may be the most important. The goal is not to find your gait type. The goal is to expand your movement options. A type system is useful only if it helps people become less trapped by type.
 
 ---
 
@@ -123,17 +139,15 @@ The interesting question is harder: Can AI find these strategies as stable patte
 
 That is where the frame becomes scientific.
 
-The tools are getting close. OpenCap, for example, combines computer vision and musculoskeletal simulation to estimate human movement dynamics from smartphone videos, moving some forms of movement analysis outside traditional marker-based gait labs. Add pose estimation, pressure insoles, inertial sensors, and a few repeated walking conditions, and the question becomes testable. Not proven. Testable.
+The tools are getting close. [OpenCap](https://doi.org/10.1371/journal.pcbi.1011462), for example, combines computer vision and musculoskeletal simulation to estimate human movement dynamics from smartphone videos, moving some forms of movement analysis outside traditional marker-based gait labs. Add pose estimation, pressure insoles, inertial sensors, and repeated walking conditions, and the question becomes testable. Not proven. Testable.
 
-The AI should not be trained first to recognize my seven labels. That would only teach the machine my theory. The better test is harsher: let the model find its own clusters without being told that Pendular Carriers, Elastic Rebounders, Braced Axial Walkers, or Spiral Drivers exist. Then ask what it found.
+The AI should not be trained first to recognize these seven labels. That would only teach the machine the theory. The better test is harsher: let the model find its own clusters without being told that Pendular Carriers, Elastic Rebounders, Braced Axial Walkers, or Spiral Drivers exist. Then ask what it found.
 
 If the clusters resemble the proposed families, remain stable across recording days, and correspond to independent force or pressure measurements, the typology has earned a first pass. If the clusters collapse into age, sex, height, shoe type, camera angle, clothing, or pathology labels, then the typology is wrong or too crude.
 
 And if an intervention changes how someone moves, the model should show that change in a meaningful direction. A braced pattern should not merely receive a prettier label. It should show more spinal-pelvic differentiation, better timing, different pressure, or some measurable change beyond appearance.
 
 This is the line between somatic insight and wishful seeing.
-
-A separate protocol article can lay out the study design, dataset, metrics, ethics, and preregistration. The point here is the frame. Somatic observation proposes. Measurement disposes.
 
 ---
 
@@ -162,5 +176,3 @@ But recognition is not proof.
 The useful future is not one where AI labels everyone's gait and turns movement into another identity category. The useful future is one where careful observation generates better questions, and measurement tells us which questions were worth asking.
 
 Somatic observation proposes. Measurement disposes.
-
-That is the bridge: not replacing human perception with data, and not replacing data with metaphor, but forcing each to improve the other.
